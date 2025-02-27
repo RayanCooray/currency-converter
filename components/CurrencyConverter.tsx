@@ -25,18 +25,18 @@ export default function CurrencyConverter() {
   const [history, setHistory] = useState<Transfer[]>([]);
 
   const handleConvert = async () => {
-    const res = await axios.post("http://localhost:5000/convert", { from, to, amount });
+    const res = await axios.post("https://currencyconverterbackend-production-f654.up.railway.app/convert", { from, to, amount });  
     setConvertedAmount(res.data.convertedAmount);
     fetchTransfers();
   };
 
   const fetchTransfers = async () => {
-    const res = await axios.get("http://localhost:5000/transfers");
+    const res = await axios.get("https://currencyconverterbackend-production-f654.up.railway.app/transfers");
     setHistory(res.data);
   };
 
   const handleRevoke = async (id: string) => {
-    await axios.delete(`http://localhost:5000/transfers/${id}`);
+    await axios.delete(`https://currencyconverterbackend-production-f654.up.railway.app/transfers/${id}`);
     fetchTransfers();
   };
 
