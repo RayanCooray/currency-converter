@@ -38,8 +38,11 @@ Ensure the backend is running
 Steps to Run Locally
 
 Clone the repository:
+# Back end
+git clone https://github.com/RayanCooray/currency_converter_backend
 
-git clone https://github.com/yourusername/currency_converter.git
+# Front end
+git clone https://github.com/RayanCooray/currency-converter
 cd currency_converter
 
 Install dependencies:
@@ -54,5 +57,5 @@ Open http://localhost:3000 in your browser.
 
 Bonus
 
-Hosted Live Demo: [Insert URL Here]
+Hosted Live Demo: https://currency-converter-plum-xi.vercel.app/
 
