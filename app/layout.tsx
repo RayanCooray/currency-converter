@@ -21,9 +21,9 @@ const bebasNeue = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "BookWise",
+  title: "CurrencyConverter",
   description:
-    "BookWise is a book borrowing university library management solution.",
+    "CurrencyConverter is a simple web app that allows you to convert currencies.",
 };
 
 
