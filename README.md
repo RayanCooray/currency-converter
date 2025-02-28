@@ -10,8 +10,6 @@ Material UI - UI component library
 
 Axios - HTTP client for API calls
 
-React Hook Form - Form handling
-
 Project Structure
 
 currency_converter/
