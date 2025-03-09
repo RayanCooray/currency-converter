@@ -91,7 +91,7 @@ export default function CurrencyConverter() {
           />
 
           <Button onClick={handleConvert} className="w-full flex items-center gap-2 rounded-lg shadow-md p-3 bg-green-500 hover:bg-green-600">
-            <RefreshCcw className="w-4 h-4" /> Convert
+            <RefreshCcw className="w-4 h-4" /> Transfer
           </Button>
 
           {convertedAmount && (
